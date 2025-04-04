@@ -17,13 +17,13 @@ const Hero = () => {
         <div className='z-50 m-auto mt-6 block w-[95%] items-center justify-between md:flex md:flex-row lg:w-[90%] xl:w-[1300px]'>
             <div className='h-fit w-full pt-5 md:w-1/2 md:py-10'>
             <h1 className='whitespace-nowrap text-center text-[2rem] font-extrabold leading-10 tracking-wider text-green-900 sm:text-5xl sm:leading-none md:text-left lg:text-6xl'>HAMAS</h1>
-            <h1 className='whitespace-nowrap text-center text[1.5rem] font-normal leading-[2rem] tracking-wider text-green-900 sm:text-4xl sm:leading-[3rem] md:text-left lg:text-[2.5rem]'>حركة المقاومة الإسلامية</h1>
+            <h1 className='whitespace-nowrap text-center text-[1.5rem] font-extrabold leading-none tracking-wider text-green-900 sm:text-4xl sm:leading-[3rem] md:text-left lg:text-[2.5rem]'>حركة المقاومة الإسلامية <br />كتائب الشهيد عز الدين القسام</h1>
             <h1 className='mt-5 whitespace-nowrap text-center text-[1.5rem] font-extrabold leading-[2rem] tracking-wider text-green-800 sm:text-4xl sm:leading-[3rem] md:text-left lg:text-[2.5rem]'>
                 Hamas Millitant Group
                 <br />
                 Al-Qassam Brigade
-                <br />
-                Saraya Al-Quds
+                {/* <br />
+                Al-Quds Brigade */}
             </h1>
             {/* <p className='my-5 whitespace-nowrap text-center text-[1.25rem] font-extrabold text-green-900 sm:text-2xl md:text-left'>
                 Islam - Resistance - Jihad 
