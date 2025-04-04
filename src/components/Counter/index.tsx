@@ -6,7 +6,7 @@ const Counter = () => {
         <div className='flex-col text-center text-xl tracking-widest text-emerald-800 sm:text-3xl'>
             <div className='w-40 font-extrabold'>957,492,000</div>
         </div>
-        <div className='text-center pl-11 text-xs tracking-wider text-emerald-800 sm:mb-0 sm:text-sm'>Accepted Applications</div>
+        <div className="flex justify-center items-center w-full text-center text-xs tracking-wider text-emerald-800 sm:mb-0 sm:text-sm sm:px-0">Accepted Applications</div>
     </div>
   )
 }
